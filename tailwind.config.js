@@ -5,7 +5,6 @@ module.exports = {
   purge: [
     "./index.html"
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -14,6 +13,7 @@ module.exports = {
       colors: {
         orange: colors.orange,
         teal: colors.teal,
+        zinc: colors.zinc
       },
       scale: {
         '98': '.98',
